@@ -1,23 +1,23 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
-config.appDescription = 'TurtleCoin Wallet';
-config.appSlogan = 'Slow and steady wins the race!';
-config.appId = 'lol.turtlecoin.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appName = 'Travelers Token';
+config.appDescription = 'TravelCoin Wallet';
+config.appSlogan = 'Lets Build Worlds!';
+config.appId = 'travelcoin-1550711133541';
+config.appGitRepo = 'https://github.com/travelerstoken/turtle-wallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 11898;
+config.daemonDefaultRpcPort = 19702;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'travel-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.12.0";
+config.walletServiceBinaryVersion = "v0.1.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -25,13 +25,13 @@ config.walletServiceBinaryVersion = "v0.12.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 8070;
+config.walletServiceRpcPort = 4401;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'turtlenode.co';
+config.remoteNodeDefaultHost = 'travelnode.co';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json';
@@ -44,13 +44,13 @@ config.remoteNodeListFallback = [
 ];
 
 // your currency name
-config.assetName = 'TurtleCoin';
+config.assetName = 'TravelCoin';
 // your currency ticker
-config.assetTicker = 'TRTL';
+config.assetTicker = 'TRV';
 // your currency address prefix, for address validation
-config.addressPrefix = 'TRTL';
+config.addressPrefix = 'TRV';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 98;
 // intergrated wallet address length, for address validation
 config.integratedAddressLength = 187;
 
@@ -73,7 +73,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'WalletShell Donation',
+    name: 'Travelers Token Donation',
     address: 'TRTLuyDrYc89jbX8iFVRAkAQN9hYRhjUC9EqRt1Vg32h94ZeBaT9iqW9u4znzenxbJAQrgw5dRLAHBv8UajiP5CtAZxCkCx9aTnXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoZ31EaE',
     paymentId: '',
   }
